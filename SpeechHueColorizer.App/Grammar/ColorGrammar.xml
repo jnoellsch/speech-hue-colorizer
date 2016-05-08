@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<grammar
+ version="1.0"
+ xml:lang="en-US"
+ xmlns="http://www.w3.org/2001/06/grammar"
+ root="Main">
+  <rule id="Main">
+    <item>
+      color <ruleref uri="#Colors"/>
+    </item>
+  </rule>
+  <rule id="Colors">
+    <one-of>
+      <item>alice blue</item>
+      <item>antique white</item>
+      <item>aqua</item>
+      <item>aquamarine</item>
+      <item>azure</item>
+      <item>beige</item>
+      <item>bisque</item>
+      <item>black</item>
+      <item>blanched almond</item>
+      <item>blue</item>
+      <item>blue violet</item>
+      <item>brown</item>
+      <item>burly wood</item>
+      <item>cadet blue</item>
+      <item>chartreuse</item>
+      <item>chocolate</item>
+      <item>coral</item>
+      <item>cornflower blue</item>
+      <item>cornsilk</item>
+      <item>crimson</item>
+      <item>cyan</item>
+      <item>dark blue</item>
+      <item>dark cyan</item>
+      <item>dark goldenrod</item>
+      <item>dark gray</item>
+      <item>dark green</item>
+      <item>dark khaki</item>
+      <item>dark magenta</item>
+      <item>dark olivegreen</item>
+      <item>dark orange</item>
+      <item>dark orchid</item>
+      <item>dark red</item>
+      <item>dark salmon</item>
+      <item>dark seagreen</item>
+      <item>dark slateblue</item>
+      <item>dark slategray</item>
+      <item>dark turquoise</item>
+      <item>dark violet</item>
+      <item>deep pink</item>
+      <item>deep skyblue</item>
+      <item>dim gray</item>
+      <item>dodger blue</item>
+      <item>firebrick</item>
+      <item>floral white</item>
+      <item>forest green</item>
+      <item>fuchsia</item>
+      <item>gainsboro</item>
+      <item>ghost white</item>
+      <item>gold</item>
+      <item>goldenrod</item>
+      <item>gray</item>
+      <item>green</item>
+      <item>green yellow</item>
+      <item>honeydew</item>
+      <item>hotp ink</item>
+      <item>indian red</item>
+      <item>indigo</item>
+      <item>ivory</item>
+      <item>khaki</item>
+      <item>lavender</item>
+      <item>lavender blush</item>
+      <item>lawn green</item>
+      <item>lemon chiffon</item>
+      <item>light blue</item>
+      <item>light coral</item>
+      <item>light cyan</item>
+      <item>light goldenrod yellow</item>
+      <item>light gray</item>
+      <item>light green</item>
+      <item>light pink</item>
+      <item>light salmon</item>
+      <item>light seagreen</item>
+      <item>light skyblue</item>
+      <item>light slategray</item>
+      <item>light steelblue</item>
+      <item>light yellow</item>
+      <item>lime</item>
+      <item>lime green</item>
+      <item>linen</item>
+      <item>magenta</item>
+      <item>maroon</item>
+      <item>medium aquamarine</item>
+      <item>medium blue</item>
+      <item>medium orchid</item>
+      <item>medium purple</item>
+      <item>medium seagreen</item>
+      <item>medium slateblue</item>
+      <item>medium springgreen</item>
+      <item>medium turquoise</item>
+      <item>medium violetred</item>
+      <item>midnight blue</item>
+      <item>mint cream</item>
+      <item>misty rose</item>
+      <item>moccasin</item>
+      <item>navajo white</item>
+      <item>navy</item>
+      <item>old lace</item>
+      <item>olive</item>
+      <item>olive drab</item>
+      <item>orange</item>
+      <item>orange red</item>
+      <item>orchid</item>
+      <item>pale goldenrod</item>
+      <item>pale green</item>
+      <item>pale turquoise</item>
+      <item>pale violetred</item>
+      <item>papaya whip</item>
+      <item>peach puff</item>
+      <item>peru</item>
+      <item>pink</item>
+      <item>plum</item>
+      <item>powder blue</item>
+      <item>purple</item>
+      <item>red</item>
+      <item>rosy brown</item>
+      <item>royal blue</item>
+      <item>saddle brown</item>
+      <item>salmon</item>
+      <item>sandy brown</item>
+      <item>sea green</item>
+      <item>seashell</item>
+      <item>sienna</item>
+      <item>silver</item>
+      <item>sky blue</item>
+      <item>slate blue</item>
+      <item>slate gray</item>
+      <item>snow</item>
+      <item>spring green</item>
+      <item>steel blue</item>
+      <item>tan</item>
+      <item>teal</item>
+      <item>thistle</item>
+      <item>tomato</item>
+      <item>transparent</item>
+      <item>turquoise</item>
+      <item>violet</item>
+      <item>wheat</item>
+      <item>white</item>
+      <item>whitesmoke</item>
+      <item>yellow</item>
+      <item>yellow green</item>
+    </one-of>
+  </rule>
+</grammar>
